@@ -10,10 +10,9 @@ export default {
 }
 </script>
 
-<style>
-::-webkit-scrollbar{
-  display:none;
-}
+<style lang="scss">
+@import url(//at.alicdn.com/t/font_618580_cllcpipf3k0xjemi.css);
+@import './styles/index.css';
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -21,12 +20,10 @@ export default {
   color: #2c3e50;
   width: 100%;
   height: 100%;
-  position: absolute;
-  background-image: url('~@/assets/bg.jpg');
-  background-size: 100% 100%;
-}
-.view {
-  height: 100%;
-  width: 100%;
+  min-width: 1440px;
+  min-height: 900px;
+  .iconfont {
+    vertical-align: middle;
+  }
 }
 </style>

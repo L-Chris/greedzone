@@ -35,10 +35,15 @@ const webpackConfig = merge(baseWebpackConfig, {
       'process.env': env
     }),
     new webpack.optimize.UglifyJsPlugin({
+      output: {
+        comments: false,
+        beautify: false
+      },
       compress: {
         warnings: false
       },
-      sourceMap: true
+      parallel: true,
+      sourceMap: false
     }),
     // extract css into its own file
     new ExtractTextPlugin({

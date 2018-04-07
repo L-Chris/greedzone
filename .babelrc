@@ -4,11 +4,17 @@
       "modules": false,
       "targets": {
         "browsers": ["> 1%", "last 2 versions", "not ie <= 8"]
-      }
+      },
+      "useBuiltIns": true
     }],
     "stage-2"
   ],
-  "plugins": ["transform-runtime"],
+  "plugins": [["transform-imports", {
+    "vuetify": {
+      "transform": "vuetify/es5/components/${member}",
+      "preventFullImport": true
+    }
+  }]],
   "env": {
     "test": {
       "presets": ["env", "stage-2"],

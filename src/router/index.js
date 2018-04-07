@@ -15,6 +15,10 @@ export default new Router({
           component: () => import('@/views/article')
         },
         {
+          path: '/article/detail',
+          component: () => import('@/views/article/Detail')
+        },
+        {
           path: '/project',
           component: () => import('@/views/project')
         },
