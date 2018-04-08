@@ -19,11 +19,10 @@
         <v-btn flat color="orange" href="https://github.com/L-Chris" target="_blank">Github</v-btn>
       </v-card-actions>
     </v-card>
-  </section>  
+  </section>
 </template>
 
 <script>
-  
 </script>
 
 <style lang="scss" scoped>

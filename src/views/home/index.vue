@@ -14,11 +14,10 @@
       </v-container>
     </v-content>
     <v-footer color="transparent" app fixed></v-footer>
-  </v-app>  
+  </v-app>
 </template>
 
 <script>
-  
 </script>
 
 <style scoped>
