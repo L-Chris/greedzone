@@ -20,10 +20,10 @@
 <script>
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .home {
-  background-image: url('~@/assets/bg.webp');
-  background-size: 100% 100%;
-  background-attachment: fixed;
+  background-image: url('~@/assets/bg.webp')!important;
+  background-size: 100% 100%!important;
+  background-attachment: fixed!important;
 }
 </style>
