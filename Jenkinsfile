@@ -11,6 +11,9 @@ pipeline {
     }
     stage('Deploy') {
       steps {
+        sh '''
+          echo 'success'
+        '''
       }
     }
   }
