@@ -12,7 +12,7 @@ pipeline {
     stage('Deploy') {
       steps {
         sh '''
-          echo 'success'
+          /root/scripts/deploy.sh greedzone
         '''
       }
     }
