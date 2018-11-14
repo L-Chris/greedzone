@@ -21,8 +21,5 @@ export default {
   height: 100%;
   min-width: 1440px;
   min-height: 900px;
-  .iconfont {
-    vertical-align: middle;
-  }
 }
 </style>
