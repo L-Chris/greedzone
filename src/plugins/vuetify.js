@@ -1,4 +1,3 @@
-import Vue from 'vue'
 import {
   Vuetify,
   VApp,
@@ -15,17 +14,19 @@ import {
 
 import 'vuetify/src/stylus/app.styl'
 
-Vue.use(Vuetify, {
-  components: {
-    VApp,
-    VAvatar,
-    VFooter,
-    VBtn,
-    VCard,
-    VDivider,
-    VGrid,
-    VSubheader,
-    VToolbar,
-    transitions
-  }
-})
+export default vue => {
+  vue.use(Vuetify, {
+    components: {
+      VApp,
+      VAvatar,
+      VFooter,
+      VBtn,
+      VCard,
+      VDivider,
+      VGrid,
+      VSubheader,
+      VToolbar,
+      transitions
+    }
+  })
+}
